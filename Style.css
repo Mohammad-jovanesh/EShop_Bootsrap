@@ -1,0 +1,253 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Btn_Scroll_Top Css style */
+
+.scroll_top {
+    right: 2%;
+    bottom: 2%;
+    font-size: 2rem;
+  
+   
+}
+.scroll_top>i {
+    background-color: aliceblue;
+    padding: 1rem;
+    border-radius: 1rem;
+    color: #444;
+}
+
+
+
+.carousel-item {
+    width: 100%;
+    height: 90vh;
+}
+.carousel-item img{
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    
+    
+}
+.Content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 15%;
+    color: #000;
+    overflow: hidden;
+   
+}
+
+.Content h5{
+font-size: 5rem;
+transform: translateY(-100%);
+transition: all 0.5s ease;
+color: #f1f1f1;
+
+ 
+}
+
+.active .Content h5 {
+    transform: translateY(0);
+    transition: all 0.5s ease;
+    
+}
+
+.Content p{
+    transform: translateX(-100%);
+   transition: all 0.5s ease ;
+   font-size: 2rem;
+   font-weight: 500;
+   color: #f1f1f1;
+  }
+  
+  .active .Content p {
+      transform: translateX(0);
+      transition: all 0.5s ease 0.5s;
+      
+  }
+  .Content button{
+    transform: translateY(100%);
+    transition: all 0.5s ease ;
+   
+  }
+  
+  .active .Content button {
+      transform: translateX(0);
+      transition: all 0.5s ease 1s;
+      
+  }
+ .overlayer {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background: rgba(68, 68, 68, 0.5);
+ }
+ 
+ .Item_1{
+    background:url(./Image/pexels-ron-lach-9594674.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+ }
+ .Item_2{
+    background:url(./Image/pexels-sam-lion-5710155.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+.info_offer {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    
+
+}
+.Image_Card {
+    background: url(./Image/images/p1.jpg);
+    width: 100%;
+    height: 20rem;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.Image_Card:hover {
+    cursor: pointer;
+    background: url(./Image/images/p2.jpg);
+    width: 100%;
+    height: 20rem;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: all 0.5s ease;
+}
+.Featured_title {
+    position: relative;
+}
+.Featured_title::after{
+    position: absolute;
+    content: "";
+    bottom: -1.5rem;
+    left: 50%;
+    transform: translateX(-50%) scaleX(0);
+    width: 50%;
+    height: 2px;
+    background: #444;
+    transition: all 0.5s ease;
+    transform-origin: left;
+}
+.Featured_title:hover::after{
+    
+    transform: translateX(-50%) scaleX(1);
+    transition: all 0.5s ease;
+}
+.color_star {
+    color: gold;
+}
+
+.banner::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(68, 68, 68, 0.4);
+}
+.banner >h1 {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 100;
+}
+.Btn_Spaciel_AddToCard {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+
+
+/* testmonail Slider */
+#carousel_Testmonail .carousel-item {
+    width: 100%;
+    height: 50vh;
+    
+}
+.testmonail_card_image {
+    width: 10rem;
+   height: 10rem;
+   margin: 1.5rem auto;
+   
+}
+.testmonail_card_image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-position: center;
+}
+
+
+ @media screen and (max-width:768px){
+    .Home{
+        width: 100%;
+        height: 50vh;
+    }
+    .carousel-item {
+        width: 100%;
+        height: 50vh;
+    }
+    
+    .Content{
+        width: 80%;
+        text-align: center;
+        
+    }
+    .Content h5{
+        font-size: 2rem;
+      
+    }
+    .Content p{
+        
+       font-size: 1.5rem;
+       font-weight: 400;
+       color: #f1f1f1;
+      }
+
+
+      /* Products Css Section */
+
+
+      #Products img{
+          width: 100%;
+      }
+      .inner_offer{
+        height: 15rem;
+        overflow: hidden;
+    }
+
+
+      .Btn_Spaciel_AddToCard{
+          width: 100% !important;
+          margin: 2rem 0 1rem 0  !important;
+      }
+      .Spaciel_Content_title p{
+          display: none;
+      }
+      .Price_Off {
+          justify-content: center !important;
+      }
+     .banner_text{
+         font-size: 1.5rem;
+     }
+ }
+ 
+
+  

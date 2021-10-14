@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./Style.css">
+    <title>Bootstrap</title>
+</head>
+<body>
+   <header class="bg-light fixed-top">
+       <div class="container ">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light " >
+            <a href="#" class="navbar-brand"><i class="fas fa-tshirt mr-2"></i>E-Shop</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#MyCollapseMenu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+           </button>
+         <div class="collapse navbar-collapse" id="MyCollapseMenu">
+             <ul class="navbar-nav ml-auto">
+                 <li class="nav-item">
+                     <a href="#Home" class="nav-link active" data-target="Home">
+                         Home
+                     </a>
+                 </li>
+                 <li class="nav-item">
+                     <a href="#Products" class="nav-link" data-target="Products">
+                         Products
+                     </a>
+                 </li>
+                 <li class="nav-item">
+                     <a  href="#Spaciel" class="nav-link" data-target="Spaciel">
+                         Spaciel
+                     </a>
+                 </li>
+                 <li class="nav-item">
+                     <a href="#Testmonail" class="nav-link" data-target="Testmonail">
+                         Testmonail
+                     </a>
+                 </li>
+                 <li class="nav-item">
+                     <a href="#Contact" class="nav-link" data-target="Contact">
+                        Contact
+                     </a>
+                 </li>
+             </ul>
+         </div>
+        </nav>
+       </div>
+   </header>
+   <section id="Home">
+    <div class="bg-dark Slider_container" >
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              
+            </ol>
+            <div class="carousel-inner">
+              
+              <div class="carousel-item active Item_1" >
+               <div class="overlayer"></div>
+                <div class="Content">
+                    <h5 class="">E-Shop Men</h5>
+                    <p class="">50% off for this Season</p>
+                    <button class="btn btn-primary btn-lg">BuyNow</button>
+                  </div>
+              </div>
+              <div class="carousel-item  Item_2" >
+                <div class="overlayer"></div>
+                 <div class="Content">
+                     <h5 class="">E-Shop Men</h5>
+                     <p class="">50% off for this Season</p>
+                     <button class="btn btn-primary btn-lg">BuyNow</button>
+                   </div>
+               </div>
+             
+             
+          </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+    </div>
+   </section>
+   <!-- Products Section -->
+    <section id="Products">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-4 col-md-6  p-3 ">
+                  <div class="position-relative inner_offer">
+                    <img src="./Image/images/offer1.jpg" alt="offerImage" class="img-fluid">
+                    <div class="overlayer"></div>
+                    <div class="info_offer d-flex flex-column align-items-center justify-content-center">
+                        <h1 class="info_offer_title text-light ">Sale 30%</h1>
+                        <p class="h5 text-light text-uppercase mt-4 mb-4">don't miss this chance</p>
+                        <a href="" class="text-uppercase text-light border border-light p-2 rounded">shopnow</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 p-3 ">
+                   <div class="row">
+                       <div class="col-12">
+                        <div class="position-relative inner_offer">
+                            <img src="./Image/images/offer2.jpg" alt="offerImage" class="img-fluid">
+                            <div class="overlayer"></div>
+                            <div class="info_offer d-flex flex-column align-items-center justify-content-center">
+                                <h1 class="info_offer_title text-light ">Sale 30%</h1>
+                                <p class="h5 text-light text-uppercase mt-2 mb-3">don't miss this chance</p>
+                                <a href="" class="text-uppercase text-light border border-light p-2 rounded">shopnow</a>
+                            </div>
+                          </div>
+                       </div>
+                       <div class="col-12 py-3">
+                        <div class="position-relative inner_offer">
+                            <img src="./Image/images/offer3.jpg" alt="offerImage" class="img-fluid">
+                            <div class="overlayer"></div>
+                            <div class="info_offer d-flex flex-column align-items-center justify-content-center">
+                                <h1 class="info_offer_title text-light ">Sale 30%</h1>
+                                <p class="h5 text-light text-uppercase mt-2 mb-3">don't miss this chance</p>
+                                <a href="" class="text-uppercase text-light border border-light p-2 rounded">shopnow</a>
+                            </div>
+                          </div>
+                       </div>
+                   </div>
+                  </div>
+                  <div class="col-lg-4   p-3 ">
+                    <div class="position-relative inner_offer">
+                      <img src="./Image/images/offer4.jpg" alt="offerImage" class="img-fluid">
+                      <div class="overlayer"></div>
+                      <div class="info_offer d-flex flex-column align-items-center justify-content-center">
+                          <h1 class="info_offer_title text-light ">Sale 40%</h1>
+                          <p class="h5 text-light text-uppercase mt-4 mb-4">don't miss this chance</p>
+                          <a href="" class="text-uppercase text-light border border-light p-2 rounded">shopnow</a>
+                      </div>
+                    </div>
+                  </div>
+                
+            </div>
+            <h1 class="text-center my-5 Featured_title">Featured Products</h1>
+            <div class="row">
+                <div class="  col-md-6 col-lg-4 py-2 ">
+                    <div class="card" style="width: 100%;">
+                        <div class="Image_Card"></div>
+                        <div class="card-body">
+                          <h5 class="card-title text-center">the Name of Prudoct</h5>
+                          <p class="card-text text-center pirce_product h4 my-4">20.00 $</p>
+                          <div class="stars d-flex align-items-center justify-content-center mb-3">
+                            <i class="far fa-star color_star"></i>
+                            <i class="far fa-star color_star"></i>
+                            <i class="far fa-star color_star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                          </div>
+                          <a href="#" class="btn btn-primary d-block">add to card</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="  col-md-6 col-lg-4 py-2">
+                    <div class="card" style="width: 100%;">
+                        <div class="Image_Card"></div>
+                        <div class="card-body">
+                          <h5 class="card-title text-center">the Name of Prudoct</h5>
+                          <p class="card-text text-center pirce_product h4 my-4">20.00 $</p>
+                          <div class="stars d-flex align-items-center justify-content-center mb-3">
+                            <i class="far fa-star color_star"></i>
+                            <i class="far fa-star color_star"></i>
+                            <i class="far fa-star color_star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                          </div>
+                          <a href="#" class="btn btn-primary d-block">add to card</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="  col-md-6 col-lg-4 py-2 ">
+                    <div class="card" style="width: 100%;">
+                        <div class="Image_Card"></div>
+                        <div class="card-body">
+                          <h5 class="card-title text-center">the Name of Prudoct</h5>
+                          <p class="card-text text-center pirce_product h4 my-4">20.00 $</p>
+                          <div class="stars d-flex align-items-center justify-content-center mb-3">
+                            <i class="far fa-star color_star"></i>
+                            <i class="far fa-star color_star"></i>
+                            <i class="far fa-star color_star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                          </div>
+                          <a href="#" class="btn btn-primary d-block">add to card</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="  col-md-6 col-lg-4 py-2 ">
+                    <div class="card" style="width: 100%;">
+                        <div class="Image_Card"></div>
+                        <div class="card-body">
+                          <h5 class="card-title text-center">the Name of Prudoct</h5>
+                          <p class="card-text text-center pirce_product h4 my-4">20.00 $</p>
+                          <div class="stars d-flex align-items-center justify-content-center mb-3">
+                            <i class="far fa-star color_star"></i>
+                            <i class="far fa-star color_star"></i>
+                            <i class="far fa-star color_star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                          </div>
+                          <a href="#" class="btn btn-primary d-block">add to card</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="  col-md-6 col-lg-4 py-2 ">
+                    <div class="card" style="width: 100%;">
+                        <div class="Image_Card"></div>
+                        <div class="card-body">
+                            <h5 class="card-title text-center">the Name of Prudoct</h5>
+                            <p class="card-text text-center pirce_product h4 my-4">25.00 $</p>
+                            <div class="stars d-flex align-items-center justify-content-center mb-3">
+                              <i class="far fa-star color_star"></i>
+                              <i class="far fa-star color_star"></i>
+                              <i class="far fa-star "></i>
+                              <i class="far fa-star"></i>
+                              <i class="far fa-star"></i>
+                            </div>
+                            <a href="#" class="btn btn-primary d-block">add to card</a>
+                          </div>
+                      </div>
+                </div>
+                <div class="  col-md-6 col-lg-4 py-2">
+                    <div class="card" style="width: 100%;">
+                        <div class="Image_Card"></div>
+                        <div class="card-body">
+                          <h5 class="card-title text-center">the Name of Prudoct</h5>
+                          <p class="card-text text-center pirce_product h4 my-4">20.00 $</p>
+                          <div class="stars d-flex align-items-center justify-content-center mb-3">
+                            <i class="far fa-star color_star"></i>
+                            <i class="far fa-star color_star"></i>
+                            <i class="far fa-star color_star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                          </div>
+                          <a href="#" class="btn btn-primary d-block">add to card</a>
+                        </div>
+                      </div>
+                </div>
+                
+            </div>
+        </div>
+       
+    <div class="banner  d-flex position-relative ">
+        
+        <a href="" class="w-100"> <img src="./Image/images/lg.jpg" alt="" class="w-100"></a>
+        <div class="overlayer"></div>
+        <h1 class="text-light position-absolute banner_text ">UP TO 75% OFF</h1>
+     
+      
+    </div>
+    </section>
+
+    <!-- Spaciel Section Start -->
+    <section style="min-height: 100vh;" id="Spaciel" class="mt-5">
+      <div class="container p-2"> 
+          <div class="row">
+              <div class="col-md-6 Spaciel_Content text-md-left text-center order-md-1 order-2">
+                  <div class="Spaciel_Content_title " >
+                     <h2 class="text-uppercase">the Spaciel Women Dress</h2>
+                     <p class="mt-4 lead d-lg-block d-none" >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium explicabo est odio similique ducimus beatae aspernatur
+                          reiciendis a omnis.</p>  
+                  </div>
+                  <div class="Timer d-flex align-items-center justify-content-center mt-5">
+                      <div class="d-flex align-items-center justify-content-center flex-column p-2 p-lg-4 bg-light mx-2 w-100">
+                          <h2 class="mb-3 "></h2>
+                          <p class="h3 text-uppercase">days</p>
+                      </div>
+                      <div class="d-flex align-items-center justify-content-center flex-column p-2 p-lg-4 bg-light mx-2 w-100">
+                        <h2 class="mb-3"></h2>
+                        <p class="h3 text-uppercase">Hr</p>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-center flex-column p-2 p-lg-4 bg-light mx-2 w-100">
+                        <h2 class="mb-3"></h2>
+                        <p class="h3 text-uppercase">min</p>
+                    </div>
+                    <div class="d-flex align-items-center justify-content-center flex-column p-2 p-lg-4 bg-light mx-2 w-100">
+                        <h2 class="mb-3"></h2>
+                        <p class="h3 text-uppercase">Sec</p>
+                    </div>
+                  </div>
+                  <div class="Price_Off d-flex align-items-center justify-content-start mt-5 ml-2 h4 ">
+                    <span class="text-danger h2 mr-3">Price : </span>
+                    <h2>40.00 $</h2>
+                    <p class="mb-0 "><s class="ml-4 h5 " style="color:#444">56.00 $</s></p>
+                  </div>
+                  <button class="btn btn-danger text-uppercase py-3 px-5 mt-5 ml-4 Btn_Spaciel_AddToCard">add to card</button>
+              </div> 
+              <div class="col-md-6 mt-md-0 mt-5 order-md-2 order-1 mb-md-0 mb-5">
+                  <img src="./Image/images/p4.jpg" alt="" class="w-100 h-100 " >
+              </div>
+          </div>
+      </div>
+    </section>
+
+    <!-- Testmonail Section Start -->
+    <section id="Testmonail" class="Testmonail_section bg-dark">
+      <div class="container-fluid">
+          <!-- slider_Start -->
+        <div id="carousel_Testmonail" class="carousel slide" data-ride="carousel">
+
+            <ol class="carousel-indicators">
+              <li data-target="#carousel_Testmonail" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel_Testmonail" data-slide-to="1"></li>
+              
+            </ol>
+
+
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <div class="d-flex w-100 align-items-center justify-content-center h-100">
+                    <div class="testmonail_card text-center text-light">
+                        <div class="testmonail_card_image ">
+                          <img src="./Image/images/user.png" alt="">
+                        </div>
+                         <div class="testmonail_card_content">
+                             <h2 class="testmonail_card_content_name mt-3 mb-3">Person one</h2>
+                             <p class="testmonail_card_content_info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod dolore cumque molestiae, ea earum quidem?</p>
+                         </div>
+                     </div>
+                  </div>
+              </div>
+              <div class="carousel-item ">
+                <div class="d-flex w-100 align-items-center justify-content-center h-100">
+                    <div class="testmonail_card text-center text-light">
+                        <div class="testmonail_card_image">
+                          <img src="./Image/images/user.png" alt="">
+                        </div>
+                         <div class="testmonail_card_content">
+                             <h2 class="testmonail_card_content_name mt-3 mb-3">Person one</h2>
+                             <p class="testmonail_card_content_info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod dolore cumque molestiae, ea earum quidem?</p>
+                         </div>
+                     </div>
+                </div>
+            </div>
+            
+            
+            
+            </div>
+
+
+            <a class="carousel-control-prev" href="#carousel_Testmonail" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel_Testmonail" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+      </div>
+    </section>
+
+    <!-- Contact Section Start -->
+    <section id="Contact" style="min-height: 50vh;" class="py-5">
+       <div class="container">
+        <h1 class="Contact_title text-center">Contact Us</h1>
+        <div class="row">
+            <div class="Contact_address col-md-6 mt-5">
+                <h2 class="Contact_Info mb-5">
+                    Contact Info
+                </h2>
+                <address class="mb-3"><i class="fas fa-map-marker-alt mr-3 "></i>Almaty</address>
+                <p class="mb-3"><i class="fas fa-mobile-alt mr-3"></i><a href="tel:+7 705 457 51 75"><strong>+7 705 457 51 75</strong></a></p>
+                 <address><i class="far fa-envelope  mr-3"></i><a href="mailto:piramun.mohammad@gmail.com">piramun.mohammad@gmail.com</a>.<br></address>
+           </div>
+           <div class="col-md-6">
+               <form >
+                   <div class="row">
+                       <div class="col-md-6">
+                           <div class="form-group">
+                             <label for="Name"></label>
+                             <input type="text" name="Name" id="Name" class="form-control" placeholder="YourName" aria-describedby="helpName">
+                            
+                           </div>
+                       </div>
+                       <div class="col-md-6">
+                        <div class="form-group">
+                          <label for="Email"></label>
+                          <input type="email" name="Email" id="Name" class="form-control" placeholder="YourEmail" aria-describedby="helpEmail">
+                         
+                        </div>
+                    </div>
+                   </div>
+                   <div class="form-group">
+                    <label for="MessageAria "></label>
+                    <textarea class="form-control" id="MessageAria" rows="3" cols="10"  style="resize:none" placeholder="YourMessage"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-danger w-100 mb-2">SendMessage</button>
+               </form>
+           </div>
+        </div>
+       </div>
+    </section>
+<!--Btn scroll top-->
+
+
+<a  class="scroll_top position-fixed" type="button">
+    <i class="fas fa-arrow-up"></i>
+</a>
+<!-- Footer Section Start================================= -->
+    <footer class="bg-light">
+      <div class="container">
+          <div class="row p-2">
+              <div class="col-6 text-center">
+              <p>Copyright &copy; 2021 EShop</p>
+              </div>
+              <div class="col-6 text-center">
+                <p>Designed By: <a href="https://github.com/Mohammad-jovanesh">MohammadPirmun</a></p>
+                </div>
+          </div>
+      </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
+<script src="https://kit.fontawesome.com/039643d60d.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>   
+<script src="./App.js"></script>
+
+</body>
+</html>
